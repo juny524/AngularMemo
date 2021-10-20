@@ -1,0 +1,38 @@
+
+
+※新しきAngularプロジェクトを作る
+npm install –g @angular/cli
+ng new *****
+
+server起動
+ng serve --open
+
+
+
+※Githubからのソースを落として動かす場合
+git clone https://github.com/*********.git
+
+落としてきたファイルのpackage.jsonの中の@angular/cliの値を*.*.*に入れる
+npm install -g @angular/cli@*.*.*
+
+node_modulesをインストールする
+npm install
+
+server起動
+ng serve --open
+
+
+
+
+
+
+起動したらこのURLでローカルのAngularで作ったものが見れる。サーバを動かしてる場合のみ
+http://localhost:4200
+
+
+
+
+git init
+git remote add origin ********.git
+
+
