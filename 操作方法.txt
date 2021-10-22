@@ -36,3 +36,16 @@ git init
 git remote add origin ********.git
 
 
+
+
+※githubでAngularで作ったページ公開できるやつ
+ng add angular-cli-ghpages
+ng deploy --base-href=/リポジトリ名/
+
+
+
+
+
+
+
+
