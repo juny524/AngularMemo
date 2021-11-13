@@ -7,7 +7,8 @@ ng new *****
 server起動
 ng serve --open
 
-
+コンポーネント作成
+ng generate component comname
 
 ※Githubからのソースを落として動かす場合
 git clone https://github.com/*********.git
@@ -20,7 +21,6 @@ npm install
 
 server起動
 ng serve --open
-
 
 
 
