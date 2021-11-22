@@ -10,6 +10,15 @@ ng serve --open
 コンポーネント作成
 ng generate component comname
 
+Could not find an NgModule. Use the skip-import option to skip importing in NgModule.
+↑みたいなエラー出るときは↓
+ng generate component comname --skip-import
+
+サービス作成
+ng generate service svname
+
+
+
 ※Githubからのソースを落として動かす場合
 git clone https://github.com/*********.git
 
@@ -30,12 +39,14 @@ ng serve --open
 http://localhost:4200
 
 
-
+git branch feature/juny001
 
 git init
 git remote add origin ********.git
 
 
+axios追加
+npm install axios
 
 
 ※githubでAngularで作ったページ公開できるやつ
@@ -44,8 +55,9 @@ ng deploy --base-href=/リポジトリ名/
 
 
 
+ionic
 
-
-
+コンポーネント作成
+ionic generate component comname
 
 
